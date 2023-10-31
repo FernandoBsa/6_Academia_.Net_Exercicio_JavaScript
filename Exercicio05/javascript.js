@@ -1,4 +1,4 @@
-function verificarCheckboxes() 
+function verificarCheck() 
 {
     var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
     var button = document.getElementById('botao');
