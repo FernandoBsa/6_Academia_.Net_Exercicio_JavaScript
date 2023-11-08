@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#vermelho').hover(function() {
+                $('body').css('background-color', 'red');
+            });
+
+            $('#verde').hover(function() {
+                $('body').css('background-color', 'green');
+            });
+
+            $('#azul').hover(function() {
+                $('body').css('background-color', 'blue');
+            });
+
+            $('#amarelo').hover(function() {
+                $('body').css('background-color', 'yellow');
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <a href="#" id="vermelho">Vermelho</a><br>
+    <a href="#" id="verde">Verde</a><br>
+    <a href="#" id="azul">Azul</a><br>
+    <a href="#" id="amarelo">Amarelo</a><br>
+</body>
+</html>
